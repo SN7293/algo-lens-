@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AlgoLens</string>
+    <string name="start_visualization">Start Visualization</string>
+        <string-array name="algorithm_options">
+            <item>Bubble Sort</item>
+            <item>Selection Sort</item>
+            <item>Quick Sort</item>
+            <item>Merge Sort</item>
+            <item>Insertion Sort</item>
+            <item>Radix Sort</item>
+        </string-array>
+
+</resources>
