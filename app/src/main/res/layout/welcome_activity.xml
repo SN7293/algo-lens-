@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome to \AlgoLens!"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <!-- Curved White Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/Background"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/start_button"
+            android:text="Start Visulizing"
+            android:textSize="30sp"
+            android:layout_marginTop="100dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

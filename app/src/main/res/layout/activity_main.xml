@@ -3,7 +3,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/background"
+    android:background="@drawable/Background"
 
     >
 
@@ -20,6 +20,7 @@
             android:layout_weight="1"
             android:hint="Enter array (e.g., 10, 20, 30)"
             android:inputType="text"
+            android:textColor="@color/black"
             android:padding="8dp"
             android:background="@android:drawable/edit_text" />
 
@@ -74,21 +75,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Start"
-            android:background="@drawable/button_background"/>
+            android:background="@color/black"/>
 
         <Button
             android:id="@+id/pauseButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pause"
-            android:background="@drawable/button_background"
             android:layout_marginStart="16dp" />
 
         <Button
             android:id="@+id/resetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_background"
             android:text="Reset"
             android:layout_marginStart="16dp" />
     </LinearLayout>
