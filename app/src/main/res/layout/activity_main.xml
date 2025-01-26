@@ -6,7 +6,7 @@
     android:background="@drawable/background"
 
     >
-    <!-- Add this in activity_main.xml above the sortingView -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
